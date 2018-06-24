@@ -2,7 +2,7 @@
 
 A dark syntax theme for Sublime Text 3.
 
-This is an update and readoption fo the abandoned scheme "neka", being ported to multiple modern IDEs.
+This is an update and readoption fo the abandoned scheme [neka](https://github.com/dempfi/neka-sublime), being ported to multiple modern IDEs.
 
 \* support for other editors pending
 
