@@ -1,0 +1,138 @@
+// blue
+
+{
+    "name": "FosterNeo",
+    "variables": {
+        "beige": "#FFE88C",
+        "black": "#050A11",
+        "blue": "#33ACD9",
+        "grey": "#505C65",
+        "orange": "#E89A17",
+        "red": "#D94F34",
+        "white": "#DEDEDE",
+        "yellow": "#E8C637",
+    },
+    "globals":
+    {
+        "background": "var(black)",
+        "foreground": "var(white)",
+        "caret": "white",
+        "line_highlight": "#090F16"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(grey)"
+        },
+        
+        {
+            "scope": "constant",
+            "foreground": "var(beige)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(beige)",
+            "font_style": "italic",
+        },
+        {
+            "scope": "constant.character.escape",
+            "foreground": "var(red)",
+        },
+
+        {
+            "scope": "invalid.illegal",
+            "foreground": "#F00"
+        },
+
+
+        {
+            "scope": "keyword",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "keyword.other",
+            "foreground": "#F0F"
+        },
+
+        
+        {
+            "scope": "entity.name",
+            "foreground": "var(blue)"
+        },
+        {
+            "scope": "entity.other",
+            "foreground": "var(orange)"
+        },
+
+
+        {
+            "scope": "markup.heading",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "markup.bold",
+            "foreground": "var(yellow)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.list",
+            "foreground": "#BBB",
+            "font_style": "italic"
+        },
+        {
+            "scope": "markup.italic",
+            "foreground": "var(yellow)",
+            "font_style": "italic"
+        },
+        {
+            "scope": "markup.underline.link",
+            "foreground": "#BCCE49",
+        },
+
+
+        {
+            "scope": "punctuation.accessor",
+            "foreground": "var(red)"
+        },
+
+
+        {
+            "scope": "storage.type",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "#BCCE49",
+        },
+
+
+        {
+            "scope": "support",
+            "foreground": "var(yellow)"
+        },
+        {
+            "scope": "support.function",
+            "foreground": "var(red)"
+        },
+
+
+        {
+            "scope": "variable",
+            "foreground": "var(orange)"
+        },
+        {
+            "scope": "variable.function",
+            "foreground": "var(blue)"
+        },
+        // {
+        //     "scope": "variable.function.python",
+        //     "foreground": "var(white)"
+        // },
+    ]
+}
