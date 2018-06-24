@@ -1,4 +1,4 @@
-# Neka colorscheme
+# FosterNeka colorscheme
 
 A dark syntax theme for Sublime Text 3
 
