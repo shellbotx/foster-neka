@@ -1,6 +1,8 @@
-# FosterNeka colorscheme
+# FosterNeko colorscheme
 
-A dark syntax theme for Sublime Text 3
+A dark syntax theme for Sublime Text 3.
+
+This is an update and readoption fo the abandoned scheme "neka", being ported to multiple modern IDEs.
 
 \* support for other editors pending
 
@@ -11,5 +13,3 @@ Supports
 - Sublime Text 3
 - Atom (pending)
 - Vim (pending)
-
-** This is a port of neka because I don't vibe with their releases anymore. **
